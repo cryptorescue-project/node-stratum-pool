@@ -1,43 +1,30 @@
 {
-    "name": "stratum-pool",
-    "version": "1.0.8",
-    "description": "High performance Stratum poolserver in Node.js",
-    "keywords": [
-        "stratum",
-        "mining",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
-    ],
-    "homepage": "https://github.com/cryptorescue-project/node-stratum-pool",
-    "bugs": {
-        "url": "https://github.com/cryptorescue-project/node-stratum-pool/issues"
-    },
-    "license": "GPL-2.0",
-    "author": "Matthew Little",
-    "contributors": [
-        "devnulled",
-        "foxer666",
-        "vekexasia",
-        "TheSeven",
-        "Kris Klosterman"
-        "mafalatexb"
-    ],
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cryptorescue-project/node-stratum-pool.git"
-    },
-    "dependencies": {
-        "async": "^2.5.0",
-        "base58-native": "^0.1.4",
-        "bignum": "^0.12.5",
-        "multi-hashing": "git://github.com/cryptorescue-project/node-multi-hashing.git"
-    },
-    "engines": {
-        "node": ">=8.1.4"
-    }
+  "name": "node-stratum-pool",
+  "version": "1.0.8",
+  "description": "High performance Stratum poolserver in Node.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptorescue-project/node-stratum-pool.git"
+  },
+  "keywords": [
+    "cryptorescue",
+    "x16s",
+    "nomp"
+  ],
+  "author": "Matthew Little",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cryptorescue-project/node-stratum-pool/issues"
+  },
+  "homepage": "https://github.com/cryptorescue-project/node-stratum-pool#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "base58-native": "^0.1.4",
+    "bignum": "^0.12.5",
+    "multi-hashing": "git://github.com/cryptorescue-project/node-multi-hashing.git"
+  }
 }
